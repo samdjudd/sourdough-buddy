@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Sourdough Buddy",
+    "slug": "sourdough-buddy",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "sourdough-buddy",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FDF6EC"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.samdjudd.sourdough-buddy"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#FDF6EC",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ]
+  }
+}
